@@ -21,7 +21,7 @@ const endObject = new Date(end)
     return (
           <StyledEvent>
             <StyledTitle>{list.name}</StyledTitle>
-            <StyledText><FaMapMarkerAlt className='red'/> {list.location}</StyledText>
+            <StyledText><FaMapMarkerAlt color='red'/> {list.location}</StyledText>
             <StyledText><FaUserAlt color='blue'/> {list.speaker}</StyledText>
             <StyledText><MdEventNote color='green'/>{dateObject.toLocaleString()}</StyledText>
             <StyledText><FaClock color='orange'/> {diffHours} {diffMinutes}</StyledText>
