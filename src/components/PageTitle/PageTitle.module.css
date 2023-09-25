@@ -1,0 +1,31 @@
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+    background-color: #84c1d653;
+    border: solid #84c1d6;
+}
+
+/* ul {
+    width: 300px;
+    background: #fbe5d7;
+    border: 1px solid rgb(201, 165, 58);
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+} */
+
+ul {
+    background: #fbe5d7;
+    border: 1px solid rgb(201, 165, 58);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
